@@ -24,6 +24,7 @@ Arquivos principais de exercícios:
 - `operadores.py` e `operadores2.py` → Operadores aritméticos e lógicos  
 - `repeticao.py` e `repcond.py` → Estruturas de repetição (`for`, `while`)  
 - `disseca_var.py` → Exploração de variáveis  
+- `cores.py` → Cores no terminal
 
 ---
 
