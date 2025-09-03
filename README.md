@@ -33,35 +33,3 @@ Arquivos principais de exercícios:
 Clone este repositório:
 ```bash
 git clone https://github.com/danieldiasss/Python.git
-Acesse a pasta:
-
-bash
-Copiar código
-cd Python
-Execute qualquer arquivo com:
-
-bash
-Copiar código
-python nome_do_arquivo.py
-📌 Status do aprendizado
- Variáveis e tipos de dados
-
- Estruturas condicionais
-
- Laços de repetição
-
- Listas
-
- Funções
-
- Orientação a Objetos
-
- Manipulação de arquivos
-
- Bibliotecas externas
-
-🛠 Tecnologias usadas
-Python 3.x
-
-📖 Objetivo
-Praticar Python e evoluir gradualmente até desenvolver projetos mais completos, consolidando fundamentos de programação.
