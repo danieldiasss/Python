@@ -18,7 +18,7 @@ O objetivo é registrar meu aprendizado na linguagem, praticando conceitos desde
 
 Arquivos principais de exercícios:
 - `variaveis.py` → Tipos de dados e variáveis  
-- `condicionais.py` → Estruturas condicionais (`if`, `elif`, `else`)  
+- `condicionais.py`e `condicoes_aninhadas` → Estruturas condicionais (`if`, `elif`, `else`)  
 - `listas.py` → Listas e manipulação de dados  
 - `funcoes.py` → Definição e uso de funções  
 - `operadores.py` e `operadores2.py` → Operadores aritméticos e lógicos  
