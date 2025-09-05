@@ -9,6 +9,7 @@ peso = float(input("Digite seu peso em kg: "))
 altura = float(input("Digite sua altura: "))
 
 imc = peso/(altura*altura)
+print(f"O seu IMC é {imc :.2f}")
 if imc < 18.5:
     print("Abaixo do Peso")
 elif imc < 25:
