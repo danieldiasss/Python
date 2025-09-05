@@ -11,7 +11,7 @@ if lado1+lado2>lado3 and lado1+lado3 > lado2 and lado2+lado3>lado1 :
     print("Podem formar um triângulo")
     if lado1 == lado2 == lado3:
         print("Esse triângulo é equilátero")
-    elif lado1 != lado2 != lado3 != r1:
+    elif lado1 != lado2 != lado3 != lado1:
         print("Esse triângulo é escaleno")
     else:
         print("Esse trinângulo é isósceles")
