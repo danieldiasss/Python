@@ -6,11 +6,12 @@ print("-=-" *30 )
 
 num = 0
 valor = 0
-
+cont = 0
 print("Digite 999 para sair")
 print("-=-" *30 )
+valor = int(input("Digite um número: "))
 while valor != 999:
     valor = int(input("Digite um número: "))
     num = num + valor
-
-print(f"A soma dos números foi {num-999}")
+    cont += 1
+print(f"A soma dos números foi {num} e o total de números foi {cont}")

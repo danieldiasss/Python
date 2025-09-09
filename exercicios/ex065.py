@@ -5,10 +5,7 @@
 print("LEITOR DE NÚMEROS")
 print("-=-"*30)
 
-maior = 0
-menor = 0
-soma_idade= 0
-cont = 0
+maior = menor = soma_idade = cont = 0
 continuar = ""
 while continuar != "N":
     num = float(input("Digite um número: "))
