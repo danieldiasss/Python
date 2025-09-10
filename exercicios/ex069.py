@@ -13,8 +13,12 @@ homens = idade = maior_idade = mulheres_menor_20 = 0
 
 while True:
     idade = int(input("Qual a idade? "))
-    sexo = str(input("Sexo [M/F]: ")).strip().upper()[0]
-    continuar = str(input("Deseja continuar?[S/N]")).strip().upper()[0]
+    sexo = " "
+    continuar = " "
+    while sexo not in "MF":
+        sexo = str(input("Sexo [M/F]: ")).strip().upper()[0]
+    while continuar not in "SN":
+        continuar = str(input("Deseja continuar?[S/N]")).strip().upper()[0]
     
     if idade >18:
         maior_idade += 1
