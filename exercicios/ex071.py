@@ -2,3 +2,9 @@
 
 #  OBS: Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
  
+print("="*50)
+print("CAIXA ELETRÔNICO")
+
+while True:
+    saque = int(input("Qual o valor a ser sacado? "))
+    
