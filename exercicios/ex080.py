@@ -2,3 +2,9 @@
 #  (sem usar o sort()).
 
 # No final, mostre a lista ordenada na tela.
+lista = []
+cont = 0
+while cont <5:
+    num = int(input("Digite um número: "))
+    lista.append(num)
+    cont += 1
