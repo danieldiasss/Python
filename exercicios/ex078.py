@@ -8,6 +8,18 @@ while cont < 5:
     num = int(input("Digite um número:"))
     lista.append(num)
     cont+= 1
+
+menor = min(lista)
+maior = max(lista)
+
 print(f"Os valores escolhidos foram {lista}")
-print(f"O menor valor é {min[0]}")
-print(f"O maior valor é {max(lista)}")
+print(f"O menor valor é {menor} na posição", end = ' ')
+for i,valor in enumerate(lista):
+    if valor == menor:
+        print(f"{i +1}",end='')
+
+print()
+print(f"O maior valor é {maior} na posição", end = ' ')
+for i,valor in enumerate(lista):
+    if valor == maior:
+        print(f"{i + 1}",end='')
